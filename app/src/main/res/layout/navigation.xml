@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    tools:context=".navigation"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/scrollView"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/navigationheader"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:text="@string/home"
+                android:textSize="@dimen/_10ssp" />
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_home_black_24dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:text="رحلات سما"
+                android:id="@+id/flight"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_5sdp"
+                app:srcCompat="@drawable/ic_flight_black_24dp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rexycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:text="@string/whoare"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_5sdp"
+                app:srcCompat="@drawable/ic_people_black_24dp" />
+
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:text="@string/question"/>
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_5sdp"
+            app:srcCompat="@drawable/ic_filter_none_black_24dp" />
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:text="@string/live"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_live_tv_black_24dp"
+            />
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="right"
+        android:id="@+id/location"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_10ssp"
+android:id="@+id/nearest"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:text="@string/nearesttou"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_location_on_black_24dp"
+            />
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:text="@string/served"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_room_service_black_24dp"
+            />
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_10ssp"
+            android:id="@+id/favnav"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:text="@string/favourite"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
+            />
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/editdata"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:text="@string/edit"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_edit_black_24dp"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="right"
+            android:id="@+id/contactus"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_10ssp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:text="اتصل بنا"/>
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_contacts_black_24dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

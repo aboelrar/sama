@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">sama</string>
+    <string name="fullname">الاسم بالكامل</string>
+    <string name="phonenum">رقم التيلفون</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="address">العنوان</string>
+    <string name="city">المدينه</string>
+    <string name="name">مرحبا فى تركيا</string>
+    <string name="tabee">تابع لمجموعه سما السياحيه</string>
+    <string name="nearest">اقرب الاماكن اليك</string>
+    <string name="knowmore">لمعرفه المزيد</string>
+    <string name="rates">اكثر الاماكن تقييما</string>
+    <string name="num">رقم جواز السفر</string>
+    <string name="firstname">الاسم الاول</string>
+    <string name="lastname">الاسم الاخير</string>
+    <string name="type">النوع</string>
+    <string name="phone">رقم الموبايل</string>
+    <string name="regist">تسجيل البيانات</string>
+    <string name="home">الرئيسيه</string>
+    <string name="whoare">من نحن</string>
+    <string name="tasneefat">التصنيفات</string>
+    <string name="question">اسئله متكرره</string>
+    <string name="live">بث مباشر</string>
+    <string name="nearesttou">الاقرب اليك</string>
+    <string name="served">حجوزاتى</string>
+    <string name="favourite">مفضلتى</string>
+    <string name="edit">تعديل بيانتى</string>
+    <string name="contactus">تواصل معنا</string>
+    <string name="history">تاريخ الرحله</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="peoplenum">عدد الافراد</string>
+    <string name="chooselanguage">اختار اللغه</string>
+    <string name="webserviceName">samaapi</string>
+    <string name="webservicePassword">123456</string>
+    <string name="contactusAction">addsentmessagedata</string>
+    <string name="signup">التسجيل</string>
+    <string name="signupal">تسجيل</string>
+    <string name="password">كلمه السر</string>
+    <string name="repassword">اعد كلمه السر </string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="lognow">دخول</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#0284AE"
+    android:id="@+id/lineara"
+    android:layout_height="@dimen/_60sdp">
+
+    <TextView
+        android:id="@+id/countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:text="اسطنبول"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_12ssp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="@dimen/_35sdp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textSize="@dimen/_10ssp"
+            android:text="حجز"
+            android:id="@+id/book"
+            android:layout_height="@dimen/_20sdp" />
+        <LinearLayout
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_5sdp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_9sdp"
+                android:layout_gravity="center"
+                android:text="الوصول"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/arrivalhours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_9ssp" />
+                <TextView
+                    android:id="@+id/arrival"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text=":"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_9ssp" />
+                <TextView
+                    android:id="@+id/arrivalmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="50"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_9ssp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_5sdp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_9sdp"
+                android:layout_gravity="center"
+                android:text="الاقلاع"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/flighthours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_9ssp" />
+                <TextView
+                android:id="@+id/flight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_9ssp" />
+                <TextView
+                    android:id="@+id/flightmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="50"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_9ssp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_5sdp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_9sdp"
+                android:layout_gravity="center"
+                android:text="السعر بالريال"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:id="@+id/price"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_9ssp"
+                android:text="100"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_43sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_5sdp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_9sdp"
+                android:layout_gravity="center"
+                android:text="التاريخ"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:id="@+id/history"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_9ssp"
+                android:text="1/1/2018"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_25sdp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_9sdp"
+                android:text="رمز الرحله"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:id="@+id/tripcode"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:textSize="@dimen/_9ssp"
+                android:text="A220"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    android:fitsSystemWindows="true"
+    tools:context=".view.contactus">
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/scrollView"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:orientation="vertical">
+                <include layout="@layout/appbar"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/_15sdp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:textSize="@dimen/_20ssp"
+                    android:textColor="#0284AE"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/_30sdp"
+                    android:text="@string/login"/>
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:id="@+id/email"
+                    android:textColor="@android:color/white"
+                    android:hint="@string/email"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColorHint="@android:color/white"
+                    android:paddingRight="@dimen/_5sdp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:id="@+id/password"
+                    android:textColor="@android:color/white"
+                    android:hint="@string/password"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColorHint="@android:color/white"
+                    android:paddingRight="@dimen/_5sdp"/>
+
+
+
+                <Button
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/_13ssp"
+                    android:id="@+id/send"
+                    android:background="@drawable/rectanglebutton"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:text="@string/lognow"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.v4.widget.DrawerLayout>
